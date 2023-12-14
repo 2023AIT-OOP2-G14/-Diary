@@ -7,7 +7,7 @@ class aihacharDiary(AbstractDiary):
     
     def get_summary(self):
         return """今日はオブジェクト指向プログラミング演習2のグループワーク演習だった。
-        この資料を作成するのは、正直しんどかった。 資料に書かれてないことも勝手に伝われば良いのに。と思った。"""
+        いまいち授業内容を理解することができなかった。もう一度資料に目を通してみようと思う。"""
     
     def get_author(self):
         return "aihachar"
