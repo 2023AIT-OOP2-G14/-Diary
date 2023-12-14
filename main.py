@@ -1,7 +1,11 @@
 from diaries.DiarySample import DiarySample
+from diaries.aihacharDiary import aihacharDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
-diaries = [DiarySample(), ]
+diaries = [
+    DiarySample(),
+    aihacharDiary(),
+]
 
 for d in diaries:
     print("---------------------------------")
