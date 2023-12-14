@@ -3,6 +3,7 @@ from diaries.NakashimaDiary import NakashimaDiary
 from diaries.NiwaDiary import NiwaDiary
 from diaries.aihacharDiary import aihacharDiary
 from diaries.YuutaDiary import YuutaDiary
+from diaries.YokoyamaDiary import YokoyamaDiary
 from diaries.YasuiDiary import YasuiDiary
 from diaries.masaDiary import masaDiary
 
@@ -11,10 +12,12 @@ diaries = [DiarySample(),
            NiwaDiary(),
            aihacharDiary(),
            YuutaDiary(),
+           YokoyamaDiary(),
            NakashimaDiary(),
            masaDiary(),
            YasuiDiary(),
            ]
+
 for d in diaries:
     print("---------------------------------")
     print(d.get_date())
